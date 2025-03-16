@@ -6,4 +6,4 @@ This is a repo containing several files:
  * Joblib dumps of both the scaler and prediction model utilized.
  * The ML model built in the notebook was exported and hosted onto Streamlit at the following link:
    https://doyouhavediabetes.streamlit.app/
-Big thank you to @TariqAi and @Mkaljermy for valuable insights and feedback ebnabling me to get this project off the ground. 
+Big thank you to [@TariqAi] (https://www.github.com/TariqAi) and [@Mkaljermy] (https://www.github.com/Mkaljermy)  for valuable insights and feedback ebnabling me to get this project off the ground. 
