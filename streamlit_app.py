@@ -31,7 +31,7 @@ with col1:
   st.write("  ")
   st.write("  ")
   st.write("  ")
-#   st.image("titanic.jpg", use_column_width = True)
+  st.image("360_F_276205639_zXwXmtHSonG36a9pXiF2mYI6pBTIIMc8.jpg", use_column_width = True)
 
 with col2:
   pregnancies = st.number_input(label = 'Amount of times user was pregnant',placeholder="Enter number of pregnancies",value=None,min_value=0,max_value=15,step=1)
