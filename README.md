@@ -19,14 +19,12 @@ The project covers the full data science workflow — from data preprocessing an
 
 The following models were tested and fitted on training data with accuracy averaged out for 50 trials with the following results:
 
-1.Random Forest	76.1%
-2.SVC	75.3%
-3.XGB	73.6%
-4.Extra Trees Classifier	75.7%
-5.Ada Boost Classifier	75.1%
+1. Random Forest	76.1%
+2. SVC	75.3%
+3. XGB	73.6%
+4. Extra Trees Classifier	75.7%
+5. Ada Boost Classifier	75.1%
 
-
-The model underwent hyperparameter tuning utilizng `Optuna` library.**
 
 
 **Accuracy: 85% for AdaBoost after hyperparameter tuning utilizng `Optuna` library.**
