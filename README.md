@@ -15,11 +15,11 @@ The project covers the full data science workflow — from data preprocessing an
 4. Model Training – Trained a RandomForestClassifier on the processed dataset.
 5. Model Evaluation – Evaluated performance using key classification metrics including accuracy.
 
-🧠 Model
+**🧠 Model**
 
 The following models were tested and fitted on training data with accuracy averaged out for 50 trials with the following results:
 
-1. Random Forest	76.1%
+1. Random Forest  76.1%
 2. SVC	75.3%
 3. XGB	73.6%
 4. Extra Trees Classifier	75.7%
