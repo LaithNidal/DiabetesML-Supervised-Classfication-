@@ -1,4 +1,4 @@
-## 🩺 Diabetes Prediction: Supervised Binary ML Classification Model (Random Forest Classifier)
+## 🩺 Diabetes Prediction: Supervised Binary ML Classification Model (AdaBoost Classifier)
 
 **🚀 Project Overview**
 
