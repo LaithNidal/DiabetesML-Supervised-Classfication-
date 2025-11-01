@@ -1,9 +1,70 @@
-# DiabetesML-Supervised-Classfication-
-This is a repo containing several files:
- * A jupyter notebook file going through the EDA of the diabetes data set obtained from kaggle. This problem set required a Supervised Classification ML model to classify weather patient records were non-diabetic (0) or diabetic (1).
- * Several models were used and the model with the highest accuracy score underwent hyperparameter tuning utlizing Optuna library.
- * Cleaned CSV was exported for reference.
- * Joblib dumps of both the scaler and prediction model utilized.
- * The ML model built in the notebook was exported and hosted onto Streamlit at the following link:
-   https://doyouhavediabetes.streamlit.app/
-Big thank you to [@TariqAi] (https://www.github.com/TariqAi) and [@Mkaljermy] (https://www.github.com/Mkaljermy)  for valuable insights and feedback ebnabling me to get this project off the ground. 
+## 🩺 Diabetes Prediction: Supervised Binary ML Classification Model (Random Forest Classifier)
+
+**🚀 Project Overview**
+
+This project aims to predict the likelihood of diabetes in patients based on health and physiological data.
+The model leverages a RandomForestClassifier to provide accurate predictions using a supervised machine learning classification approach.
+
+The project covers the full data science workflow — from data preprocessing and model training to evaluation and result interpretation — demonstrating practical applications of ML in healthcare analytics.
+
+**📊 Workflow**
+
+1. Data Loading & Cleaning – Imported the diabetes dataset and handled missing or inconsistent values.
+2. Feature Engineering – Processed relevant medical features such as glucose level, BMI, insulin, and blood pressure.
+3. Feature Scaling – Standardized numeric variables for improved classifier performance.
+4. Model Training – Trained a RandomForestClassifier on the processed dataset.
+5. Model Evaluation – Evaluated performance using key classification metrics including accuracy.
+
+🧠 Model
+
+The following models were tested and fitted on training data with accuracy averaged out for 50 trials with the following results:
+
+1.Random Forest	76.1%
+2.SVC	75.3%
+3.XGB	73.6%
+4.Extra Trees Classifier	75.7%
+5.Ada Boost Classifier	75.1%
+
+
+The model underwent hyperparameter tuning utilizng `Optuna` library.**
+
+
+**Accuracy: 85% for AdaBoost after hyperparameter tuning utilizng `Optuna` library.**
+
+
+
+**💻 Application**
+
+The notebook walks through data analysis, visualization, and classification modeling, making it ideal for learners and professionals exploring healthcare predictive analytics.
+
+Future deployment could include an interactive Streamlit app to allow users to input medical data and receive instant diabetes risk predictions.
+
+
+**Inputs:**
+
+* Pregnancies
+* Glucose
+* Blood Pressure
+* Skin Thickness
+* Insulin
+* BMI
+* Diabetes Pedigree Function
+* Age
+
+**Output:**
+Predicted Class: Diabetic or Non-Diabetic
+
+**🧩 Tech Stack**
+
+* Python
+* Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+
+**📁 Repository Contents**
+
+* `diabetes_prediction.ipynb` – Jupyter notebook containing data preprocessing, model training, and evaluation
+
+* `diabetes.csv` – Dataset containing patient medical attributes both raw and cleaned file.
+
+* `scaler.joblib` – Saved trained model
+  
+* `streamlit.app.py` - Stremalit application hositng model.joblib file.
