@@ -33,9 +33,8 @@ The following models were tested and fitted on training data with accuracy avera
 
 **💻 Application**
 
-The notebook walks through data analysis, visualization, and classification modeling, making it ideal for learners and professionals exploring healthcare predictive analytics.
+The model was hosted on a Streamlit file found on the following URL:[Diabetes Classifier](https://doyouhavediabetes.streamlit.app/)
 
-Future deployment could include an interactive Streamlit app to allow users to input medical data and receive instant diabetes risk predictions.
 
 
 **Inputs:**
